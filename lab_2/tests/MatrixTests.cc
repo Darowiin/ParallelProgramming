@@ -17,7 +17,7 @@ int main() {
             Matrix a(i, i, 2.0, 100.0);
             Matrix b(i, i, 2.0, 100.0);
 
-            string path = "C:/Users/Darowiin/Desktop/labs/ParallelProgramming/lab_1/tests/results/";
+            string path = "C:/Users/Darowiin/Desktop/labs/ParallelProgramming/lab_2/tests/results/";
             a.WriteData(format("{}a{}.txt", path, i));
             b.WriteData(format("{}b{}.txt", path, i));
 
