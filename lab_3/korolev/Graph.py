@@ -19,9 +19,9 @@ for file, label in zip(files, labels):
                     y.append(y_val)
     plt.plot(x, y, marker='o', label=label)
 
-plt.xlabel('X')
-plt.ylabel('Y')
-plt.title('График из нескольких .txt файлов')
+plt.xlabel('Размер матрицы')
+plt.ylabel('Время в секундах')
+plt.title('График работы на Суперкомпьютере "Сергей Королёв"')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
