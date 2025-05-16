@@ -40,9 +40,12 @@
 ![График](https://github.com/Darowiin/ParallelProgramming/blob/main/lab_3/image.png)
 
 ### Работа на суперкомпьютере "Сергей Королев"
-![График](https://github.com/Darowiin/ParallelProgramming/blob/main/Lab_3/korolev.png)
+![График](https://github.com/Darowiin/ParallelProgramming/blob/main/lab_3/korolev.png)
 На суперкомпьютере алогритм показывает более стабильную работу (происходит практически трехкратное улучшение при увеличении кол-ва потоков в три раза).
-[Вывод 4 потока](https://github.com/Darowiin/ParallelProgramming/blob/main/Lab_3/korolev/4.txt) [Вывод_12 потоков](https://github.com/Darowiin/ParallelProgramming/blob/main/Lab_3/korolev/12.txt)
+
+[Вывод 4 потока](https://github.com/Darowiin/ParallelProgramming/blob/main/Lab_3/korolev/4.txt)
+
+[Вывод_12 потоков](https://github.com/Darowiin/ParallelProgramming/blob/main/Lab_3/korolev/12.txt)
 
 ## Вывод
 Использование MPI позволило эффективно распараллелить вычисления. Прирост производительности получился лучше, чем при использовании OpenMP, особенно при работе с большими матрицами. Однако масштабируемость ограничивается накладными расходами на передачу данных и синхронизацию между процессами.  
